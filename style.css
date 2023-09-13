@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+
+    font-size: 6rem;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url("https://t4.ftcdn.net/jpg/00/43/81/81/360_F_43818150_55TAFmppHAVVURZ7gea0yBPOThCLlqfh.jpg");
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    line-height: 1.5;
+}
+#heading{
+    padding: 2rem 0;
+    
+}
+#container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    border: .2rem solid rgb(193, 27, 27);
+    border-radius: 2rem;
+    margin: 0 20% ;
+}
+#time,#date{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem ;
+    font-size: 5rem;
+}
+p,h4{
+    text-align: center;
+     font-family: 'Ubuntu', sans-serif;;
+}
+
